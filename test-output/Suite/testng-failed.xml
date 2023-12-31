@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testcomponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ErrorValidationTest(failed)">
+    <classes>
+      <class name="com.testngframework.E_Cart_Product_ErrorValidation">
+        <methods>
+          <include name="productErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testngframework.E_Cart_Product_ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
